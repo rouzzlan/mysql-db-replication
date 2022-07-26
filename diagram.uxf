@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>770</x>
+      <y>180</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Slave
+// DB Symbol
+_umletcode=
+fg='black';
+bg='#222222';
+drawArc(0,0,width,height*2/5,0,180,true) //Parameters (x, y, width, height, start, extent, open)
+bg='bg';
+drawArc(0,0,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+fg='#929292';
+bg='#222222';
+drawRectangle(0,(height+0.5)/5,width,(height)*3/5-1)  //Parameters (x, y, width, height)
+fg='black'
+drawLine(0,height/5,0,height*4/5) //Parameters (x1, y1, x2, y2)
+drawLine(width,height/5,width,height*4/5) //Parameters (x1, y1, x2, y2)
+bg='bg';
+drawArc(0,height*1/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+drawArc(0,height*2/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+bg='#222222'
+drawArc(0,height*3/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>390</x>
+      <y>180</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Master
+// DB Symbol
+_umletcode=
+fg='black';
+bg='#222222';
+drawArc(0,0,width,height*2/5,0,180,true) //Parameters (x, y, width, height, start, extent, open)
+bg='bg';
+drawArc(0,0,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+fg='#929292';
+bg='#222222';
+drawRectangle(0,(height+0.5)/5,width,(height)*3/5-1)  //Parameters (x, y, width, height)
+fg='black'
+drawLine(0,height/5,0,height*4/5) //Parameters (x1, y1, x2, y2)
+drawLine(width,height/5,width,height*4/5) //Parameters (x1, y1, x2, y2)
+bg='bg';
+drawArc(0,height*1/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+drawArc(0,height*2/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+bg='#222222'
+drawArc(0,height*3/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>110</y>
+      <w>190</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>Replica
+192.168.110.129
+bg=green
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>110</y>
+      <w>190</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>Sourse
+192.168.110.128
+bg=blue
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>200</y>
+      <w>310</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+syncs from</panel_attributes>
+    <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
+  </element>
+</diagram>
